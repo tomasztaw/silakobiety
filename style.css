@@ -377,3 +377,45 @@ header nav ul li a:hover {
 }
 
 /* Military Section end */
+
+/* Gallery Section start */
+
+.gallery .galleryContainer {
+  column-count: 4;
+  column-gap: 20px;
+}
+
+.gallery .galleryContainer .item {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.gallery .galleryContainer img {
+  width: 100%;
+  display: block;
+  transition: 0.5s;
+}
+
+.gallery .galleryContainer .title {
+  position: absolute;
+  background-color: var(--gray);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.gallery .galleryContainer .item:hover .title {
+  opacity: 1;
+}
+
+.gallery .galleryContainer .item:hover img {
+  transform: scale(1.2);
+}
+
+/* Gallery Section end */

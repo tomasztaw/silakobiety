@@ -6,6 +6,10 @@
   --gray: #efefef;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button,
 body {
   font-family: "Poppins", sans-serif;
@@ -29,6 +33,36 @@ p {
 .container {
   width: 1140px;
   margin: auto;
+}
+
+.sectionTitle {
+  width: 300px;
+  border-bottom: 3px solid var(--themeRed);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 auto 50px;
+  position: relative;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.sectionTitle::after {
+  display: inline-block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background-color: var(--themeRed);
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(75% - 7px);
+  transform: rotate(45deg) translate(50%, 50%);
+  border: 3px solid #fff;
+}
+
+section {
+  padding: 100px 0;
+  position: relative;
 }
 
 /* Common style end */
@@ -129,3 +163,72 @@ header nav ul li a:hover {
 }
 
 /* Home style end */
+
+/* AboutSection style start */
+
+/* #aboutSection img {
+  margin: 15px auto;
+} */
+
+#aboutSection p {
+  text-align: center;
+  margin: 25px auto;
+}
+
+#aboutSection .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+  height: 245px;
+}
+
+#aboutSection .cards > div {
+  width: 350px;
+  background-color: var(--gray);
+  padding: 35px;
+  color: #444;
+  text-align: center;
+  border-radius: 5px;
+  height: 215px;
+  border: 1px solid #ccc;
+  transition: 0.4s;
+}
+
+#aboutSection .cards > div:hover {
+  width: 400px;
+  margin-top: -20px;
+  border-color: var(--themeRed);
+  padding: 55px;
+  height: auto;
+}
+
+#aboutSection .cards > div .title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#aboutSection .cards > div p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#aboutSection .cards > div button {
+  border: 1px solid var(--themeRed);
+  outline: none;
+  padding: 7px 15px;
+  margin-top: 15px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#aboutSection .cards > div:hover button {
+  background-color: var(--themeRed);
+  color: #fff;
+}
+
+/* AboutSection style end */

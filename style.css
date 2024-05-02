@@ -693,3 +693,43 @@ footer .newsLetterContainer input {
 }
 
 /* Responsive Code end here */
+
+/* Support side */
+
+.support-banner {
+  min-height: 100vh;
+  width: 80%;
+  background-image: url(imgs/donation-7647719_1920.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.support p {
+  margin: 25px auto;
+  font-size: 18px;
+}
+
+.support .advice {
+  background-color: rgba(228, 58, 71, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.support button {
+  /* background-color: #e43a47; */
+  background-color: var(--themeRed);
+  color: #fff;
+  padding: 10px 20px;
+  /* border: none; */
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 20px;
+}
+
+.support button:hover {
+  background-color: #c92c39;
+  border: 1px solid black;
+  border-radius: 8px;
+}

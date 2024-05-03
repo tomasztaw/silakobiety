@@ -733,3 +733,54 @@ footer .newsLetterContainer input {
   border: 1px solid black;
   border-radius: 8px;
 }
+
+/* Lenguage side */
+
+.langContainer {
+  display: flex;
+}
+
+.description {
+  flex: 1;
+  padding: 20px;
+}
+
+.description p {
+  margin: 25px auto;
+  font-size: 18px;
+}
+
+.langImages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 10px;
+}
+
+.langImages img {
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.lang button {
+  /* background-color: #e43a47; */
+  background-color: var(--themeRed);
+  color: #fff;
+  padding: 10px 20px;
+  /* border: none; */
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 20px;
+}
+
+.lang button:hover {
+  background-color: #c92c39;
+  border: 1px solid black;
+  border-radius: 8px;
+}

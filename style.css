@@ -791,3 +791,36 @@ footer .newsLetterContainer input {
   column-count: 4;
   column-gap: 20px;
 }
+
+/* Status Section start */
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.document-link {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 40px;
+  transition: color 0.3s ease;
+}
+
+.document-link:hover {
+  color: #0056b3;
+}
+
+#statusSecton .back-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#statusSecton .back-button:hover {
+  background-color: #0056b3;
+}

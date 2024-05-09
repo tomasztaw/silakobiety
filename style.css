@@ -83,11 +83,12 @@ header .container {
 
 header .container .logo {
   padding: 15px 0;
-  height: 75px;
+  height: 100px;
 }
 
 header .container .logo img {
   height: 100%;
+  border-radius: 5px;
 }
 
 header nav ul {
@@ -160,6 +161,12 @@ header nav ul li a:hover {
   font-size: 13px;
   border-radius: 3px;
   font-weight: 600;
+  transition: 1.5s;
+}
+
+.banner button:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Home style end */
@@ -193,11 +200,11 @@ header nav ul li a:hover {
   border-radius: 5px;
   height: 215px;
   border: 1px solid #ccc;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 
 #aboutSection .cards > div:hover {
-  width: 400px;
+  width: 380px;
   margin-top: -20px;
   border-color: var(--themeRed);
   padding: 55px;
@@ -223,12 +230,16 @@ header nav ul li a:hover {
   font-size: 12px;
   border-radius: 3px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 #aboutSection .cards > div:hover button {
   background-color: var(--themeRed);
   color: #fff;
+}
+
+#aboutSection .cards button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* AboutSection style end */
@@ -320,6 +331,11 @@ header nav ul li a:hover {
   padding: 7px 15px;
   border: none;
   cursor: pointer;
+  transition: 1s;
+}
+
+.programs .boxContainer .box button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Program Section end */
@@ -374,6 +390,12 @@ header nav ul li a:hover {
   font-weight: bold;
   font-size: 14px;
   outline: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.military .militaryContainer button:hover {
+  border-radius: 8px;
 }
 
 /* Military Section end */
@@ -424,7 +446,10 @@ header nav ul li a:hover {
 
 .join {
   background-image: url(imgs/pattern2.jpg);
+  /* background-image: url(imgs/emb-patter1.jpg); */
+  background-size: contain;
   color: #fff;
+  /* color: black; */
 }
 
 .join .joinTitle {
@@ -443,6 +468,7 @@ header nav ul li a:hover {
   outline: none;
   font-weight: 600;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .join button.joinNow {

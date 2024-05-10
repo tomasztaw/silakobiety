@@ -446,8 +446,7 @@ header nav ul li a:hover {
 
 .join {
   background-image: url(imgs/pattern2.jpg);
-  /* background-image: url(imgs/emb-patter1.jpg); */
-  background-size: contain;
+  /* background-size: contain; */
   color: #fff;
   /* color: black; */
 }
@@ -479,6 +478,10 @@ header nav ul li a:hover {
 
 .join button.donateNow {
   background-color: var(--gray);
+}
+
+.join p {
+  font-size: 18px;
 }
 
 /* Join section end */

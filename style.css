@@ -82,8 +82,8 @@ header .container {
 }
 
 header .container .logo {
-  padding: 15px 0;
-  height: 100px;
+  padding: 2px 0;
+  height: 78px;
 }
 
 header .container .logo img {
@@ -728,7 +728,7 @@ footer .newsLetterContainer input {
 .support-banner {
   min-height: 100vh;
   width: 80%;
-  background-image: url(imgs/donation-7647719_1920.jpg);
+  /* background-image: url(imgs/donation-7647719_1920.jpg); */
   background-size: cover;
   background-position: center;
 }
@@ -825,6 +825,8 @@ footer .newsLetterContainer input {
 .statusContainer {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
 }
 
 .document-link {
@@ -851,5 +853,10 @@ footer .newsLetterContainer input {
 }
 
 #statusSecton .back-button:hover {
-  background-color: #0056b3;
+  background-color: #015fc4;
+}
+
+/* NEW STYLES */
+.logo .logo-links {
+  cursor: pointer;
 }

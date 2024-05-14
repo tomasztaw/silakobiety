@@ -735,14 +735,6 @@ footer .conectContainer a {
 
 /* Support side */
 
-.support-banner {
-  min-height: 100vh;
-  width: 80%;
-  /* background-image: url(imgs/donation-7647719_1920.jpg); */
-  background-size: cover;
-  background-position: center;
-}
-
 .support p {
   margin: 25px auto;
   font-size: 18px;
@@ -752,25 +744,6 @@ footer .conectContainer a {
   background-color: rgba(228, 58, 71, 0.5);
   padding: 10px;
   border-radius: 10px;
-}
-
-.support button {
-  /* background-color: #e43a47; */
-  background-color: var(--themeRed);
-  color: #fff;
-  padding: 10px 20px;
-  /* border: none; */
-  border: 1px solid white;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 20px 20px;
-}
-
-.support button:hover {
-  background-color: #c92c39;
-  border: 1px solid black;
-  border-radius: 8px;
 }
 
 /* Lenguage side */
@@ -800,28 +773,8 @@ footer .conectContainer a {
 
 .langImages img {
   width: 90%;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.lang button {
-  /* background-color: #e43a47; */
-  background-color: var(--themeRed);
-  color: #fff;
-  padding: 10px 20px;
-  /* border: none; */
-  border: 1px solid white;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 20px 20px;
-}
-
-.lang button:hover {
-  background-color: #c92c39;
-  border: 1px solid black;
-  border-radius: 8px;
 }
 
 /* Concerts Section starts MORE IN GALLERY SECTION */
@@ -831,11 +784,11 @@ footer .conectContainer a {
   column-gap: 20px;
 }
 
+/* napisy pod tytułem */
 .concerts .concertsContainer {
   margin: 50px;
   
 }
-
 
 /* Status Section start */
 .statusContainer {
@@ -857,22 +810,7 @@ footer .conectContainer a {
   color: #0056b3;
 }
 
-#statusSecton .back-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#statusSecton .back-button:hover {
-  background-color: #015fc4;
-}
-
 /* NEW STYLES */
-.logo .logo-links {
+.logo .logo-links { /* chyba jest błąd z .logo-links ???? */
   cursor: pointer;
 }

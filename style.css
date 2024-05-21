@@ -552,6 +552,10 @@ footer .conectContainer a {
   color: #7f7f7f;
 }
 
+footer .conectContainer a:hover {
+  color: #c5b2b2;
+}
+
 footer .footer-logo {
   display: flex;
 }
@@ -647,7 +651,11 @@ footer .footer-logo p {
   cursor: pointer;
 }
 
+/* Military-support start */
 
+.military-title {
+  width: 600px;
+}
 
 
 /* Responsive Code start from here */

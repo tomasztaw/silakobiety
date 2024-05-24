@@ -657,6 +657,55 @@ footer .footer-logo p {
   width: 600px;
 }
 
+/* Schema page start */
+
+.schemaContent {
+  margin: 80px 40px;
+  /* text-align: center; */
+}
+
+.schemaContent p {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.schemas .schemaImages {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.schemas .schemaImages .item {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.schemas .schemaImages img {
+  width: 100%;
+  display: block;
+  transition: 0.5s;
+}
+
+.schemas .schemaImages .title {
+  position: absolute;
+  background-color: var(--gray);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.schemas .schemaImages .item:hover .title {
+  opacity: 1;
+}
+
+.schemas .schemaImages .item:hover img {
+  transform: scale(1.2);
+}
 
 /* Responsive Code start from here */
 
